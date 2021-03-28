@@ -16,7 +16,7 @@ public class FoodBehavior : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         //if the player is colliding to the food
-        if (collision.gameObject.name == "waterHyacinth" || collision.gameObject.name == "alligatorWeed" || collision.gameObject.name == "eelGrass") )
+        if (collision.gameObject.name == "waterHyacinth" || collision.gameObject.name == "alligatorWeed" || collision.gameObject.name == "eelGrass") 
         {
             //make player do a bounce animation
             collision.gameObject.transform.position += temp;
