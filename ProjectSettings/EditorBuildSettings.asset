@@ -8,4 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/manateeRunnerLevel2.unity
     guid: ba967b71b88961a428d8ca82969d025c
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0541d6dccccf3e54ebc2ed29b0025adc,
+      type: 2}
