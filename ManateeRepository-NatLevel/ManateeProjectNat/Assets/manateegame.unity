@@ -498,12 +498,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 145901455}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &167311697 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000012234704302, guid: 196fe542ad163b149adf1ca04c19c753,
-    type: 3}
-  m_PrefabInstance: {fileID: 969999683}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &171220172
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +509,7 @@ GameObject:
   - component: {fileID: 171220175}
   - component: {fileID: 171220174}
   - component: {fileID: 171220173}
+  - component: {fileID: 171220176}
   m_Layer: 0
   m_Name: Sand_01 (2)
   m_TagString: Untagged
@@ -583,6 +578,42 @@ Transform:
   m_Father: {fileID: 1547695765}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &171220176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171220172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984c462070db48a4eb0f3d4db6e799ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maximumAngleForEvent: 30
+  OnHoverBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHover:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHoverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnButtonPressedDuringHover:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7400000, guid: 3d781387f0febd54d9123263a554e316, type: 2}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &188330276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1236,6 +1267,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 10, z: 30}
   m_Center: {x: 0, y: 5, z: 3}
+--- !u!114 &202138444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202138442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92544c1ea231b341922efb571f04d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &224600776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3364,7 +3407,7 @@ PrefabInstance:
     - target: {fileID: 8764403747236833621, guid: e9ccc27bb6f9f944e8bda508e30456a5,
         type: 3}
       propertyPath: m_Name
-      value: single boat (1)
+      value: single boat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ccc27bb6f9f944e8bda508e30456a5, type: 3}
@@ -3387,6 +3430,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 10, z: 30}
   m_Center: {x: 0, y: 5, z: 3}
+--- !u!114 &864551735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864551733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92544c1ea231b341922efb571f04d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &928308454 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000012234704302, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -5224,7 +5279,7 @@ Transform:
   - {fileID: 171220175}
   - {fileID: 1753997635}
   - {fileID: 1199561868}
-  - {fileID: 167311697}
+  - {fileID: 4000011852038381}
   - {fileID: 309897438}
   - {fileID: 928308454}
   - {fileID: 1576993353}
@@ -5963,7 +6018,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995002873}
   m_LocalRotation: {x: -0.24184473, y: 0.66446304, z: -0.24184473, w: -0.66446304}
-  m_LocalPosition: {x: 13.24, y: 4.88, z: -0.76}
+  m_LocalPosition: {x: 13.24, y: 4.88, z: -0.65}
   m_LocalScale: {x: 0.1, y: 0.099999994, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1914138632}
@@ -6410,3 +6465,9 @@ Transform:
   m_Father: {fileID: 1547695765}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 30, y: 270, z: 0}
+--- !u!4 &4000011852038381 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4000012234704302, guid: 196fe542ad163b149adf1ca04c19c753,
+    type: 3}
+  m_PrefabInstance: {fileID: 969999683}
+  m_PrefabAsset: {fileID: 0}
